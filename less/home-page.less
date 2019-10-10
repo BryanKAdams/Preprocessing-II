@@ -91,14 +91,14 @@
     margin-bottom: 30px;
 
     .btn {
-      .custom-btn(teal, 200px, 40px, white);
+      .custom-btn(@button-bg, 200px, 40px, @main-bg)
     }
 
     @media @phone {
       width: 80%;
 
       .btn {
-        .custom-btn(teal, 100%, 40px, white);
+        .custom-btn(@button-bg, 100%, 40px, @main-bg)
       }
     }
   }

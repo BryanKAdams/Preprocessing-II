@@ -291,32 +291,34 @@ img {
   margin-bottom: 30px;
 }
 .home .destination .btn {
-  display: block;
-  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #17A2B8;
   cursor: pointer;
   width: 200px;
   height: 40px;
   font-size: 2rem;
   border-radius: 10px;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
-  padding-top: 10px;
 }
 @media (max-width: 500px) {
   .home .destination {
     width: 80%;
   }
   .home .destination .btn {
-    display: block;
-    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17A2B8;
     cursor: pointer;
     width: 100%;
     height: 40px;
     font-size: 2rem;
     border-radius: 10px;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
-    padding-top: 10px;
   }
 }
 .footer {
