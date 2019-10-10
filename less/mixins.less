@@ -1,1 +1,20 @@
 // Mixins in here
+@phone: ~"(max-width: 500px)";
+
+.flex(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align; 
+}
+.custom-btn(@bg-color: lavender, @width: 200px, @height, @txt-color: rebeccapurple){
+    display: block;
+    background-color: @bg-color;
+    cursor: pointer;
+    width: @width;
+    height: @height;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@txt-color;
+    text-align: center;
+    padding-top: 10px;
+}
